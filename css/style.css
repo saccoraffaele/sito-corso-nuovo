@@ -118,7 +118,7 @@ nav{
 
 #immagine_principale{
     
-    max-width: 100%;
+    width: 100%;
     
 }
 
@@ -162,12 +162,7 @@ main{
     margin-top: 3rem;
 }
 
-@media  screen and (max-width: 1024px) {
-    main{
-     max-width: 1504px;
-    }
-    
-}
+
 
  .container{
      
@@ -212,13 +207,6 @@ main{
 }
 
 
- @media screen {
-
-    .containerbox{
-     max-width: 1100px
-    }
-     
- }
  
  
 
@@ -396,7 +384,7 @@ main{
     transform: translateZ(0);
     display: flex;
     height: fit-content;
-    
+    width: 50%;
 
 }
 
@@ -471,9 +459,17 @@ main{
 
 
 .imgcontainer2{
-    transform: translateZ(0);
-    display: flex;
-    height: fit-content;
+    
+    
+    
+    
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    
    
     
 
@@ -703,7 +699,7 @@ main{
 }
 
 
-@media screen and (max-width:1024px) {
+
 
     .banner, .banner2, .banner3, .banner4, .banner5{
     flex-direction: column-reverse;
@@ -717,7 +713,7 @@ main{
 
     
   
-}
+
 
 .boxfinestra{
     margin-left: 3rem;
@@ -835,6 +831,45 @@ main{
 }
 
 
+
+@media screen and (max-width:1024px) {
+    
+        .containerbox{
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr;
+        -webkit-box-pack: justify;
+        justify-content: center;
+        max-width: 300px;
+        margin: 0rem;
+    }
+  
+}
+
+@media screen and (max-width:1024px) {
+
+    .banner, .banner2, .banner3, .banner4, .banner5, .subconteiner, .subconteiner2, .subconteiner3, .subconteiner4, .subconteiner5,
+    .testcontainer, .testcontainer2, .testcontainer3, .testcontainer4, .testcontainer5, .buttonlinkcontainer,
+    .buttonlinkcontainer2, .buttonlinkcontainer3, .buttonlinkcontainer4, .buttonlinkcontainer5{
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+   
+        
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+
+    .boxfinestra{
+        max-width: 500px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
 
 
 /* Fine Main style */
