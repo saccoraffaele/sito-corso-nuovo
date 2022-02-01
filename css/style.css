@@ -1,147 +1,178 @@
-
-
-nav div img{
-   
-   width: 22px;
-   height: 35px;
-   size: 22px;
-   
-   
-}
-ul{
+.navbar{
     display: flex;
+    height: 4.75rem;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    margin-top: -8px;
+}
+
+.logo{
+    margin-left: 20px;
+    align-self: center;
+}
+
+.lista-menu{
+    margin-left: -25px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.lista-menu li{
+    padding: 15px;
+    list-style: none;
+    font-size: 17px;
+}
+
+.lista-menu li:hover{
+    color: #2e2ee7;
+}
+
+.menu-destra{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 25px;
+    
+}
+
+.menu-destra input{
+    border: black solid 1px;
+    border-radius: 3px;
+    height: 38px;
+    width: 240px;
+
+}
+
+
+
+.bxs-sun, .bx-globe{
+    
+    font-size: 25px;
+}
+
+.bxs-sun:hover{
+    color: #2e2ee7;
+}
+
+.bx-globe:hover  {
+    color: blue;
+    font-size: 30px;
+}
+
+#languages:hover{
+    color: blue;
+}
+
+.bxs-sun{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bx-globe{
+    color: #969696;
+}
+
+.language{
+    font-size: 20px;
+    padding: 8px;
+    display: flex;
+}
+
+#languages{
+    text-decoration: none;
+    color: #383838;
+    font-size: 18px;
+}
+
+.language a{
+    align-self: center;
+}
+
+
+.immagine{
+    height: 600px;
+    width: 100%;
+}
+
+
+#immagine-principale{
+    max-width: none;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.traduttore{
+    
+    height: 30px;
+    
+    padding: 5px 10px;
+    display: flex;
+    padding-top: 15px;
+    margin-top: 30px;
+    flex-direction: column;
     align-items: center;
 }
 
-
-nav ul li{
-    display: inline-block;
-    padding: 10px;
-    
-    margin-left: 20px;
-}
-
- nav ul li:hover{
-     color: #3939e9;
- }
-     
- 
- 
- nav{
-     position: sticky;
-     top: 0px;
-     z-index: 1000;
-     width: 100%;
- }
- 
- #search{
-     display: inline-block;
-     
-     margin-left: 450px;
-     
- }
- 
- #cerca{
-     border: solid black 3px;
-     border-radius: 10px;
-     padding: 10px;
-     background: white;
-     
- }
- 
- .lingua:hover{
-    color: #3939e9; 
-     
- }
- 
- .bxs-sun:hover{
-    color: #3939e9;
- }
- 
- nav{
-     position: fixed;
-     border: solid 3px yellow; 
-     background: white; 
-     width: 100%; 
-     top: 0px;
-
-     
-}
-
-i{
-    font-size: 30px;
-    
-}
-
-span i{
-
-    position: relative;
-    top: 10px;
-
-    padding: 5px;
-}
-
-
-
-#search{
-    display: inline-block;
-    
-    margin-left:500px;
-    
-}
-
-#cerca{
-   
-    border-radius: 3px;
-    padding: 10px;
-    border-color: #cecdcc;
-    position: relative;
-    right: 20px;
-    
-}
-
-span a{
-    color: #272626;
+.traduttore a{
+    text-align: center;
     text-decoration: none;
-}
-
-
-
-nav{
-    position: fixed;
-    border: solid 1px #d8d8d7; 
-    background: white; 
-    width: 100%; 
-    top: 0px;
     
 }
 
-#immagine_principale{
-    
-    max-width: 100%;
-    
+.welcome{
+    width: 100%;
 }
 
-#traduction{
+.welcome h1{
     text-align: center;
+    font-size: 30pt;
+    color: #333333;
 }
 
-div a{
-    text-decoration:none;
-    color: #272626;
-}
 
-#welcome{
+.paragrafo-welcome p{
+    color: #666666;
+    max-width: 55ch;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.25rem;
+    margin-top: 1rem;
 }
 
-.button{
-   
-    border: 1px solid #ccc9c9;
-    padding: 10px;
-    position: absolute;
-    margin-left: 700px;
-    border-radius: 3px;
+.explore a{
+    text-decoration: none;
+    font-size: 13pt;
+    color: #666666;
 }
+
+.explore{
+    color: #333333;
+    border: 1px solid #333333;
+    width: 10rem;
+    text-align: center;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.explore:hover{
+    box-shadow: 5px 5px 5px #8585e2;
+    border: 1px solid blue;
+    text-decoration: blue;
+    
+}  
+
+.explore a:hover{
+    color: blue;
+}
+
+
 
 
