@@ -873,3 +873,77 @@ main{
 
 
 /* Fine Main style */
+
+
+/* Footer Style  */
+
+
+footer {
+    padding: 150px;
+  }
+  
+  
+  
+  
+  /* Dettagli */
+  svg {
+    fill: rgb(178, 178, 178);
+    padding-top: 10px;
+  }
+  
+  svg:hover {
+    cursor: pointer;
+  }
+  
+  footer ul li {
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 0.8em;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  footer a:hover {
+    text-decoration: none;
+    color: rgb(28, 28, 225);
+  }
+  
+  
+  
+  /* ===== Contenitore superiore del footer ===== */
+  footer section:first-of-type {
+    padding: 40px; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #update {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+    padding-left: 14px;
+  }
+  
+  
+  
+  /* ===== Contenitore inferiore del footer ===== */
+  #footer-inferiore {
+      display: grid;
+      grid-template-columns: repeat(6, auto);
+      gap: 1rem;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+  }
+  
+  #footer-inferiore ul{
+      display: block;
+  }
+  
+  #footer-inferiore div {
+    text-align: left;
+  }
