@@ -794,6 +794,177 @@ h1 + span {
   }
 }
 
+.containereth-d{
+  display: block;
+  padding: 1rem 2rem;
+}
+.container-grid-box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 2rem 2rem 0px;
+  border-radius: 2px;
+}
+
+.container-box-ethday1{
+  position: relative;
+  color: rgb(51, 51, 51);
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid;
+  padding: 1.5rem;
+}
+
+.container-box-ethday2{
+  position: relative;
+  color: rgb(51, 51, 51);
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid;
+  padding: 1.5rem;
+}
+
+.container-box-ethday3{
+  position: relative;
+  color: rgb(51, 51, 51);
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid;
+  padding: 1.5rem;
+}
+
+.container-box-ethday4{
+  position: relative;
+  color: rgb(51, 51, 51);
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid;
+  padding: 1.5rem;
+}
+
+.textcontainer-ethday{
+  display: block;
+  padding: 1rem 2rem;
+}
+
+.cointainer-card-ethday{
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0rem;
+}
+
+.container1-ethday{
+  min-width: 450px;
+  margin: 1rem;
+  border-radius: 2px;
+  border: 1px solid rgb(51, 51, 51);
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(210 210 249) 4px 4px;
+  border-radius: 2px;
+  text-decoration: none;
+  flex: 1 1 372px;
+}
+.container2-ethday{
+  min-width: 450px;
+  margin: 1rem;
+  border-radius: 2px;
+  border: 1px solid rgb(51, 51, 51);
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(210 210 249) 4px 4px;
+  border-radius: 2px;
+  text-decoration: none;
+  flex: 1 1 372px;
+}
+.container3-ethday{
+  min-width: 450px;
+  margin: 1rem;
+  border-radius: 2px;
+  border: 1px solid rgb(51, 51, 51);
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(210 210 249) 4px 4px;
+  border-radius: 2px;
+  text-decoration: none;
+  flex: 1 1 372px;
+}
+
+.eth-lego-container{
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    49.21deg
+    , rgba(127, 127, 213, 0.2) 19.87%,
+     rgba(134, 168, 231, 0.2) 58.46%,
+      rgba(145, 234, 228, 0.2) 97.05%);
+      border-radius: 4px;
+      margin: 8rem 0px 4rem;
+    padding: 2rem 4rem;
+}
+
+.container-text-ethlego{
+  padding-left: 5rem;
+  flex: 1 0 50%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.btn-containet-ethlego{
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.btn-ethlego{
+  padding: 0.5rem 0.75rem;
+  display: inline-block;
+  border-radius: 0.25em;
+  margin: 5px;
+  text-decoration: none;
+  background-color: rgb(28, 28, 225);
+  border: 1px solid transparent;
+  color: rgb(255, 255, 255) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.btn-ethlego2{
+  gap: 0.5rem;
+    margin-top: 0rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(51, 51, 51);
+    background-color: transparent;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25em;
+    text-align: center;
+    cursor: pointer;
+}
+
 /* Fine Main style */
 
 /* Footer Style  */
